@@ -12,7 +12,7 @@ for($i=$limit; !$evenlyDivisible; $i+=$limit) {
         }
 
         if($evenlyDivisible) {
-                echo "smallest number evenly divisible by $limit is $i\n";
+                echo "smallest number evenly divisible by 1..$limit is $i\n";
                 break 1;
         }
 }
